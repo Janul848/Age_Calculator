@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(red, yellow, green, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Set the font family to Arial */
+    text-align: center; /* Center the text */
+    height: 100vh;
+  }
+  #grad {
+    background-image: linear-gradient(red, yellow);
+  }
+  
+  /* Styles for the age form */
+  #age-form {
+    margin-bottom: 20px; /* Add a top margin of 20px */
+  }
+  
+  /* Styles for the container */
+  .container {
+    margin-top: 250px;
+    background-image: linear-gradient(blue, green, yellow, red);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    width: 300px; 
+    text-align: center; 
+  }
+  h1{
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the birthdate input field */
+  #birthdate {
+    padding: 10px; 
+    font-size: 16px; 
+  }
+  
+  /* Styles for the calculate button */
+  #calculate-btn {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-image: linear-gradient(gray, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff; /* Set the text color to white */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add a border radius of 5px */
+    cursor: pointer; /* Change the cursor to a pointer */
+  }
+  
+  /* Styles for the calculate button on hover */
+  #calculate-btn:hover {
+    background-color: #3e8e41; 
+  }
+  
+  /* Styles for the age result */
+  #age-result {
+    font-size: 24px; 
+    font-weight: bold;
+    margin-top: 20px; 
+  }

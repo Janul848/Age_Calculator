@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The character encoding of the document is set to UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- The viewport settings are defined for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- A link to an external stylesheet is added -->
+    <link rel="stylesheet" href="Age.css">
+  </head>
+  <body>
+    <center>
+        <down>
+    <!-- A container div is created to hold the content -->
+    <div class="container">
+      <u>
+        <h1>Age Calculator</h1>
+      </u>
+      <!-- A form is created with an ID of "age-form" -->
+      <form id="age-form">
+        <u>
+        <!-- A label is created for the birthdate input field -->
+        <label for="birthdate"> Enter your Birthdate:</label>
+        </u>
+        <br>
+        <!-- An input field of type "date" is created with an ID of "birthdate" and is required -->
+        <input type="date" id="birthdate" required>
+        <br>
+        <br>
+        <!-- A button is created with an ID of "calculate-btn" -->
+        <button id="calculate-btn">Calculate Age</button>
+      </form>
+      <!-- A paragraph element is created with an ID of "age-result" to display the result -->
+      <p id="age-result"></p>
+    </div>
+    </center>
+</down>
+    <!-- A script tag is added to link to an external JavaScript file -->
+    <script src="Age.js"></script>
+  </body>
+</html>
